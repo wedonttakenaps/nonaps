@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Detail Reduction Studies
-cover: cover.jpg
+cover: castle-dip-army-men_web.jpg
 date:   2017-06-21 12:00:00
 categories: posts
 ---

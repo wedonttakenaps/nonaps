@@ -31,3 +31,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+repository: wedonttakenaps/NONAPS.github.io

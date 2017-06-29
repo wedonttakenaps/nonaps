@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-28T22:23:21-07:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>A website for the architectural studio NONAPS, made up of Mini Chu, Chris Gardini, and Ryan Nearman.
-</subtitle><entry><title type="html">Detail Reduction Studies</title><link href="http://localhost:4000/posts/2017/06/21/example-post.html" rel="alternate" type="text/html" title="Detail Reduction Studies" /><published>2017-06-21T05:00:00-07:00</published><updated>2017-06-21T05:00:00-07:00</updated><id>http://localhost:4000/posts/2017/06/21/example-post</id><content type="html" xml:base="http://localhost:4000/posts/2017/06/21/example-post.html">&lt;p&gt;«««&amp;lt; HEAD
-Test text test text test text.
-=======
-A plaster cast is a copy made in plaster of another 3-dimensional form. The original from which the cast is taken may be a sculpture, building, a face, a pregnant belly, a fossil or other remains such as fresh or fossilised footprints – particularly in palaeontology (a track of dinosaur footprints made in this way can be seen outside the Oxford University Museum of Natural History).&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;blockquote&gt;
-    &lt;blockquote&gt;
-      &lt;blockquote&gt;
-        &lt;blockquote&gt;
-          &lt;blockquote&gt;
-            &lt;blockquote&gt;
-              &lt;p&gt;a961160a0f87b61d431848ee3494b4e82b36aa67&lt;/p&gt;
-            &lt;/blockquote&gt;
-          &lt;/blockquote&gt;
-        &lt;/blockquote&gt;
-      &lt;/blockquote&gt;
-    &lt;/blockquote&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">«««&amp;lt; HEAD Test text test text test text. ======= A plaster cast is a copy made in plaster of another 3-dimensional form. The original from which the cast is taken may be a sculpture, building, a face, a pregnant belly, a fossil or other remains such as fresh or fossilised footprints – particularly in palaeontology (a track of dinosaur footprints made in this way can be seen outside the Oxford University Museum of Natural History).</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-28T22:37:13-07:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>A website for the architectural studio NONAPS, made up of Mini Chu, Chris Gardini, and Ryan Nearman.
+</subtitle><entry><title type="html">Detail Reduction Studies</title><link href="http://localhost:4000/posts/2017/06/21/example-post.html" rel="alternate" type="text/html" title="Detail Reduction Studies" /><published>2017-06-21T05:00:00-07:00</published><updated>2017-06-21T05:00:00-07:00</updated><id>http://localhost:4000/posts/2017/06/21/example-post</id><content type="html" xml:base="http://localhost:4000/posts/2017/06/21/example-post.html">&lt;p&gt;Test text test text test text.&lt;/p&gt;</content><author><name></name></author><summary type="html">Test text test text test text.</summary></entry></feed>

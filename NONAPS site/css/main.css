@@ -17,7 +17,7 @@ html, body {
 
 body {
   color: #4a4a4a;
-  background-color: #fafbfc;
+  background-color: #ffffff;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
   font-size: 0.85em;
@@ -65,8 +65,9 @@ a:hover {
 }
 
 .posts-list li {
-  text-align: center;
+  text-align: left;
   line-height: 1.75em;
+  display: block;
 }
 
 /*****************************************************************************/
@@ -97,7 +98,7 @@ a:hover {
 }
 
 .posts {
-  border-top: 1px solid #e7e7e7;
+  border-top: none;
   margin-top: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.25em;
@@ -134,7 +135,8 @@ a:hover {
 }
 
 #info-container {
-  margin-top: 3em;
+padding-top: 5%;
+margin-top: 3em;
 }
 
 #title {
@@ -181,7 +183,7 @@ a:hover {
 }
 
 .post ul, .post ol {
-  margin-left: 2.35em;
+  margin-left: 0em;
   margin-bottom: 1.25em;
 }
 
@@ -223,14 +225,14 @@ a:hover {
 
 .sidebar {
   float: left;
-  width: 14%;
-  padding-left: 11em;
-  padding-right: 2.125em;
-  border-right: 1px solid #e7e7e7;
+  width: 10%;
+  padding-left: 4em;
+  padding-right: 2em;
+  border-right: none;
 }
 
 .content {
-  padding-left: 2.125em;
+  padding-left: 2.25em;
 }
 
 .header {
@@ -240,13 +242,13 @@ a:hover {
 }
 
 .post-link {
-  margin-bottom: 0.75em;
+  margin-bottom: 0.5em;
 }
 
 .post-title {
-  font-weight: 600;
-  font-size: 1.25em;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: none;
 }
 
 .post-date {
@@ -264,7 +266,7 @@ a:hover {
   display: none;
   padding: 15px 5px 0px 0px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: none;
 }
 
 #sidebar-button:active,

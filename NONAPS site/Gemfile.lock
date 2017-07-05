@@ -206,6 +206,7 @@ DEPENDENCIES
   flex
   github-pages
   jekyll-feed (~> 0.6)
+  jekyll-relative-links
   tzinfo-data
 
 RUBY VERSION

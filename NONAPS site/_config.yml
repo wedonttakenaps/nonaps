@@ -4,8 +4,3 @@ include: ["_pages"]
 repository: wedonttakenaps/NONAPS
 gems:
     jekyll-relative-links
-language: node_js
-node_js:
-  - 0.10
-before_script:
-  - npm install -g grunt-cli

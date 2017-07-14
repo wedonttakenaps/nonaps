@@ -1,6 +1,0 @@
-markdown: kramdown
-highlighter: pygments
-include: ["_pages"]
-repository: wedonttakenaps/NONAPS
-gems:
-    jekyll-relative-links

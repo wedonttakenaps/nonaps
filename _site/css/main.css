@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  color: #4a4a4a;
+  color: #191919;
   background-color: #ffffff;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  color: #000000;
+  color: #191919;
   text-decoration: none;
   border: none;
 }
@@ -35,7 +35,7 @@ a img {
 }
 
 a:hover {
-  color: #555;
+  color: none;
   border: none;
 }
 
@@ -117,6 +117,20 @@ a:hover {
   margin-top: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.25em;
+}
+
+.link-container {
+  border-top: none;
+  margin-top: .5em;
+  padding-top: .5%;
+  padding-bottom: 1.25em;
+}
+
+.studio-info-container {
+  border-top: none;
+  margin-top: 0em;
+  padding-top: 0%;
+  padding-bottom: 2.0em;
 }
 
 .sidebar-container {
@@ -217,7 +231,7 @@ margin-top: 4em;
 
 .post ul, .post ol {
   margin-left: 0em;
-  margin-bottom: 1.25em;
+  margin-bottom: 0em;
 }
 
 .post code {
@@ -289,11 +303,10 @@ margin-top: 4em;
 }
 
 .content {
-  padding-left: 2.25em;
+  padding-left: 3.5em;
 }
 
 .header {
-  text-align: center;
   padding-top: 2.5em;
   font-size: 1.1em;
 }
@@ -304,7 +317,7 @@ margin-top: 4em;
 
 .project-list-link {
   margin-bottom: 0.5em;
-  color: #000000
+  color: #191919;
   font-weight: 500;
   font-size: 1em;
   text-decoration: none;
@@ -315,16 +328,20 @@ margin-top: 4em;
   font-size: 12px;
   margin-bottom: 1.45em;
   text-align: justify;
+  color: #191919;
 }
 
 .project-title {
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #191919;
+
 }
 
 .post-title {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 12px;
   text-transform: none;
 }
 
@@ -359,6 +376,23 @@ margin-top: 4em;
 #sidebar-button:hover {
   opacity: 0.7;
 }
+
+.study-list-link {
+  margin-bottom: 0.5em;
+  color: #808080;
+  font-weight: 500;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.idea-list-link {
+  margin-bottom: 0.5em;
+  color: #BFBFBF;
+  font-weight: 500;
+  font-size: 1em;
+  text-decoration: none;
+}
+
 
 /*****************************************************************************/
 /*

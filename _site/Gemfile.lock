@@ -170,6 +170,7 @@ GEM
     multi_json (1.12.1)
     multipart-post (2.0.0)
     net-dns (0.8.0)
+    net_http_ssl_fix (0.0.8)
     nokogiri (1.8.0-x64-mingw32)
       mini_portile2 (~> 2.2.0)
     octokit (4.7.0)
@@ -207,6 +208,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-relative-links
+  net_http_ssl_fix
   tzinfo-data
 
 RUBY VERSION

@@ -82,6 +82,7 @@
         position: "absolute",
         top: 0,
         left: 0,
+        width: "100%",
         zIndex: 0,
         display: "none",
         webkitBackfaceVisibility: "hidden"

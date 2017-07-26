@@ -24,6 +24,21 @@ body {
   overflow: hidden;
 }
 
+button {
+    background-color: #ffffff;
+    border: none;
+    color: #191919;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    font-family: "Work Sans", sans-serif;
+}
+
 a {
   color: #191919;
   text-decoration: none;
@@ -199,6 +214,14 @@ margin-top: 4em;
   font-size: 3em;
   line-height: 40px;
   text-transform: uppercase;
+}
+
+#previous-button {
+  font-weight: 200;
+}
+
+#next-button {
+  font-weight: 700;
 }
 
 .post {
@@ -400,20 +423,6 @@ margin-top: 4em;
   text-decoration: none;
 }
 
-button {
-    background-color: #ffffff;
-    border: none;
-    color: #191919;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    outline: none;
-    font-size: 12px;
-    font-family: "Work Sans", sans-serif;
-}
 
 /*****************************************************************************/
 /*

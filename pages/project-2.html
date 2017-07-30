@@ -37,56 +37,8 @@ title: Project 1
       <!-- End SlidesJS Required -->
 
       <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
 
-      <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
-      <style>
-        #slides {
-          display: none
-        }
-
-        .container {
-          margin: 0 auto
-        }
-
-        /* For tablets & smart phones */
-        @media (max-width: 767px) {
-          body {
-            padding-left: 20px;
-            padding-right: 20px;
-          }
-          .container {
-            width: auto
-          }
-        }
-
-        /* For smartphones */
-        @media (max-width: 480px) {
-          .container {
-            width: auto
-          }
-        }
-
-        /* For smaller displays like laptops */
-        @media (min-width: 768px) and (max-width: 979px) {
-          .container {
-            width: 724px
-          }
-        }
-
-        /* For larger displays */
-        @media (min-width: 1200px) {
-          .container {
-            width: 900px
-          }
-        }
-          img {
-    width: 100%;
-    height: auto;
-    max-width: 900px;
-}
-      </style>
-      <!-- SlidesJS Required: -->
   </head>
   <body>
     <div class="site">
@@ -98,12 +50,12 @@ title: Project 1
             <div class="studio-info-container">
               <ul class="project-list">
               <li class="project-list-link">
-                <a class="project-list-link" href="/about.html">
+                <a class="about-contact-link" href="/about.html">
                   about
                 </a>
                 </li>
                 <li class="project-list-link">
-                  <a class="project-list-link" href="/contact.html">
+                  <a class="about-contact-link" href="/contact.html">
                     contact
                   </a>
                   </li>
@@ -123,37 +75,33 @@ title: Project 1
 
           <div class="posts">
             <div class="project-title">
-            <h2>
-              About
-            </h2>
+              Dipping Exercise
           </div>
           <div class="project-text">
             <p>
-              This is an architectural website under construction for the architectural studio nonaps.
+              This is a test description for a website under construction for the architectural studio nonaps.
             </p>
         </div>
       </div>
     </div>
-
-      <script src="/scripts/responsive.js" type="text/javascript"></script>
-<script>
-      var slideIndex = 1;
-      showDivs(slideIndex);
-
-      function plusDivs(n) {
-          showDivs(slideIndex += n);
-      }
-
-      function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("project-photo");
-          if (n > x.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = x.length} ;
-          for (i = 0; i < x.length; i++) {
-              x[i].style.display = "none";
-          }
-          x[slideIndex-1].style.display = "block";
-      }
-      </script>
   </body>
+  <script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("project-photo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+  </script>
 </html>

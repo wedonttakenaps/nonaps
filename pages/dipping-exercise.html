@@ -71,7 +71,7 @@ title: Dipping Exercise
             <img class="project-photo" src="\images\17-002-Dipping-exercise\05-dip-four.png">
             <img class="project-photo" src="\images\17-002-Dipping-exercise\06-dip-five.png">
             <img class="project-photo" src="\images\17-002-Dipping-exercise\07-dip-six.png">
-            <img class="project-video" src="https://player.vimeo.com/video/261663354" autoplay loop>
+            <img class="project-video" src="\images\17-002-Dipping-exercise\Dipping-Exercise-Final.mp4" autoplay loop>
 
             <button class="w3-button" onclick="plusDivs(-1)" id="previous-button">Previous</button>
             <button class="w3-button" onclick="plusDivs(1)" id="next-button">Next</button>
@@ -109,7 +109,7 @@ function plusDivs(n) {
 
 function showDivs(n) {
     var i;
-    var x = document.getElementsByClassName("project-photo");
+    var x = document.getElementsByClassName("project-photo", "project-video");
     if (n > x.length) {slideIndex = 1}
     if (n < 1) {slideIndex = x.length} ;
     for (i = 0; i < x.length; i++) {

@@ -1,0 +1,119 @@
+---
+title: Guerrero Park
+---
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
+
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="/css/main.css">
+
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="/css/responsive.css">
+
+      <!-- CSS for slidesjs.com example -->
+      <!-- <link rel="stylesheet" href="/Slides-SlidesJS-3/standard/css/example.css">
+      <link rel="stylesheet" href="/Slides-SlidesJS-3/standard/css/font-awesome.min.css"> -->
+      <!-- End CSS for slidesjs.com example -->
+
+      <!-- SlidesJS Required: Link to jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <!-- End SlidesJS Required -->
+
+      <!-- SlidesJS Required: Link to jquery.slides.js -->
+      <script src="/Slides-SlidesJS-3/standard/js/jquery.slides.min.js"></script>
+      <!-- End SlidesJS Required -->
+
+      <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+      <meta name="viewport" content="width=device-width">
+      <!-- End SlidesJS Required -->
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="site">
+      <div class="content" id="home">
+            <div class="header">
+              <a href="/"><img id="logo" src="/images/nonaps-main-logo.png"></a>
+            </div>
+          <div class="page-content-container">
+            <div class="studio-info-container">
+              <ul class="project-list">
+              <li class="project-list-link">
+                <a class="about-contact-link" href="/about.html">
+                  about
+                </a>
+                </li>
+                <li class="project-list-link">
+                  <a class="about-contact-link" href="/contact.html">
+                    contact
+                  </a>
+                  </li>
+                </ul>
+              </div>
+          <div class="project-content-container">
+
+          <div id="cover-photo-container">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_site_plan_final_01_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guererro_render_1_FINAL_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_1_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_2_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_3_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_4_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_5_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_6_web.png">
+            <img class="project-photo" src="\images\18-003-Guerrero-Park\guerrero_7_web.png">
+            <video class="project-photo" src="\images\18-003-Guerrero-Park\guerrero-park-vid.mp4" controls autoplay loop> </video>
+
+            <button class="w3-button" onclick="plusDivs(-1)" id="previous-button">Previous</button>
+            <button class="w3-button" onclick="plusDivs(1)" id="next-button">Next</button>
+          </div>
+
+          <div class="posts">
+            <div class="project-title">
+              Guerrero Park
+          </div>
+          <div class="project-text">
+            <p>
+              This single day installation for a San Francisco Planning Department neighborhood engagement day came together in a little less than a week. It's purpose
+              was to act as a beacon in order to draw people to the site and to act as a collector of people's ideas for a future park, written onto balloons and released into the canopy.
+              As more balloons are added, the beacon fills out and rises above the asphalt. It represents the idea that as more people submit their ideas
+              a fuller, more collaborative picture is created, resulting in a city made for the residents, by the residents.
+              <br>
+               <br>
+              The materials used were 5 mil polypropylene sheeting, helium filled latex baloons, and painted cinder blocks to anchor the beacon in place.
+            </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("project-photo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+  </script>
+</html>

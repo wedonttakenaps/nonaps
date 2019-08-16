@@ -1,0 +1,125 @@
+---
+title: The Space Between
+---
+<!DOCTYPE html>
+<html>
+  <head>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130110969-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130110969-1');
+      </script>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
+
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="/css/main.css">
+
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="/css/responsive.css">
+
+      <!-- CSS for slidesjs.com example -->
+      <!-- <link rel="stylesheet" href="/Slides-SlidesJS-3/standard/css/example.css">
+      <link rel="stylesheet" href="/Slides-SlidesJS-3/standard/css/font-awesome.min.css"> -->
+      <!-- End CSS for slidesjs.com example -->
+
+      <!-- SlidesJS Required: Link to jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <!-- End SlidesJS Required -->
+
+      <!-- SlidesJS Required: Link to jquery.slides.js -->
+      <script src="/Slides-SlidesJS-3/standard/js/jquery.slides.min.js"></script>
+      <!-- End SlidesJS Required -->
+
+      <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+      <meta name="viewport" content="width=device-width">
+      <!-- End SlidesJS Required -->
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="site">
+      <div class="content" id="home">
+            <div class="header">
+              <a href="/"><img id="logo" src="/images/nonaps-main-logo.png"></a>
+            </div>
+          <div class="page-content-container">
+            <div class="studio-info-container">
+              <ul class="project-list">
+              <li class="project-list-link">
+                <a class="about-contact-link" href="/about.html">
+                  about
+                </a>
+                </li>
+                <li class="project-list-link">
+                  <a class="about-contact-link" href="/contact.html">
+                    contact
+                  </a>
+                  </li>
+                </ul>
+              </div>
+          <div class="project-content-container">
+
+          <div id="cover-photo-container">
+            <img class="project-photo" src="\images\19-001-Ragdale-Competition\ragdale-axon-01.png">
+            <img class="project-photo" src="\images\19-001-Ragdale-Competition\ragdale-plan-02.png">
+            <img class="project-photo" src="\images\19-001-Ragdale-Competition\ragdale-section-03.png">
+            <img class="project-photo" src="\images\19-001-Ragdale-Competition\ragdale-render-day-04.png">
+            <img class="project-photo" src="\images\19-001-Ragdale-Competition\ragdale-render-night-05.png">
+
+            <button class="w3-button" onclick="plusDivs(-1)" id="previous-button">Previous</button>
+            <button class="w3-button" onclick="plusDivs(1)" id="next-button">Next</button>
+          </div>
+
+          <div class="posts">
+            <div class="project-title">
+              The Space Between
+          </div>
+          <div class="project-text">
+            <p>
+              The Space Between​ is a stretched fabric structure that utilizes transparency and layering to embrace the theatrical experience that Ragdale was and is today. The materiality of the ring is simple: translucent fabric and bent steel pipe. The iconic white limestone of the original Ragdale Ring is reinterpreted as an ephemeral white scrim that respects the geometry and palette of the original.
+              These simple materials are deployed to create a single gesture that accomplishes our 3 main formal objectives: 1. create a stage as the focal point of the installation 2. form an entry point that sets the tone for the ragdale experience 3. create an interstitial space that physically connects these moments. The resulting form appears as one graceful move through the manipulation of a simple
+              geometric shape - a translucent passageway forms the ring, with the performance side of the tube peeling up to form a canopy. The entry, opposite the lifted veil, is carved away, exposing an interstitial layer and giving the spectator the choice of entering the ring directly to the center or through its tunnel like enclosure.
+              <br>
+               <br>
+                In addition to these formal objectives ​The Space Between ​utilizes its materiality to redefine the theatrical and phenomenological experience of the Ragdale Ring. The translucent fabric acts as a scrim or veil, providing a backdrop for projections or a surface for shadow plays, allowing new performance typologies to be brought to the Ragdale environment. It modulates light and shadow to set the scene
+                for performance or artistic interventions in much the same way that paper lanterns were utilized to the same effect in the original design. Because the scrim like material is used throughout the project, the spectators become part of the spectacle, traversing between the layers to enter and exit the ring. Shadows will emerge and disappear as people come and go, and will change throughout the day and
+                the season, creating a dynamic experience for both performer and spectator. ​The Space Between’s ​ambition is to honor and embody the spirit of the original Ragdale Ring while contributing to new creative ways to explore and inhabit the environment.
+            </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("project-photo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+  </script>
+</html>

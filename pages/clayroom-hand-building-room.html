@@ -1,0 +1,139 @@
+---
+title: clayroom hand building room
+---
+<!DOCTYPE html>
+<html>
+  <head>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130110969-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130110969-1');
+      </script>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
+
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="/css/main.css">
+
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="/css/responsive.css">
+
+      <!-- CSS for slidesjs.com example -->
+      <!-- <link rel="stylesheet" href="/Slides-SlidesJS-3/standard/css/example.css">
+      <link rel="stylesheet" href="/Slides-SlidesJS-3/standard/css/font-awesome.min.css"> -->
+      <!-- End CSS for slidesjs.com example -->
+
+      <!-- SlidesJS Required: Link to jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <!-- End SlidesJS Required -->
+
+      <!-- SlidesJS Required: Link to jquery.slides.js -->
+      <script src="/Slides-SlidesJS-3/standard/js/jquery.slides.min.js"></script>
+      <!-- End SlidesJS Required -->
+
+      <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+      <meta name="viewport" content="width=device-width">
+      <!-- End SlidesJS Required -->
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="site">
+      <div class="content" id="home">
+            <div class="header">
+              <a href="/"><img id="logo" src="/images/nonaps-main-logo.png"></a>
+            </div>
+          <div class="page-content-container">
+            <div class="studio-info-container">
+              <ul class="project-list">
+              <li class="project-list-link">
+                <a class="about-contact-link" href="/about.html">
+                  about
+                </a>
+                </li>
+                <li class="project-list-link">
+                  <a class="about-contact-link" href="/contact.html">
+                    contact
+                  </a>
+                  </li>
+                </ul>
+              </div>
+          <div class="project-content-container">
+
+          <div id="cover-photo-container">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-1.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-2.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-3.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-4.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-5.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-6.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-7.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-8.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-9.png">
+            <img class="project-photo" src="\images\19-005-Clayroom-Hand-Building-Room\hand-building-10.png">
+
+            <button class="w3-button" onclick="plusDivs(-1)" id="previous-button">Previous</button>
+            <button class="w3-button" onclick="plusDivs(1)" id="next-button">Next</button>
+          </div>
+
+          <div class="posts">
+            <div class="project-title">
+              Clayroom Hand Building Room
+          </div>
+          <div class="project-text">
+            <p>
+              After completing a remodel for Clayroom Potrero Hill clay studio, which included a new layout and
+              material palette, and additional storage for the glazing and members areas, we were asked to reenvision
+              their hand building room. In contrast to the rest of the studio, which is constantly in motion (think
+              spinning wheels, pieces moving from shelf to shelf, bodies shuffling from station to station), the hand
+              building room is a place where people can work in peace and quiet for a few hours on large,
+              clean work surfaces.
+              <br>
+            <br>
+              For the glazing and members areas we developed a contemporary aesthetic that took cues from a cabin
+              in the Sierras; for the hand building room we continued this language, focusing on the communal and
+              inviting experience of gathering around a campfire.
+              <br>
+            <br>
+              For the primary design piece, the casework, we chose prefinished maple plywood and millenial pink
+              to bring warmth to the small space. The two work tables, each 3'-0" x 7'-8", consist of white HPL
+              laminated to 1" hardwood plywood with exposed edges. A rectangular window with sliding glass panes
+              was added to increase connection to the rest of the studio.
+            </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("project-photo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
+  </script>
+</html>
